@@ -1,0 +1,21 @@
+event_id,station_id,charger_id,event_time,event_type,severity,description,resolved
+EVT101,EV_IND_001,C-IND-001,2025-06-01 05:50:00,Alert,Medium,Voltage fluctuation detected above safe threshold,true
+EVT102,EV_IND_001,C-IND-002,2025-06-01 06:20:00,Fault,High,Connector overheating - session terminated,true
+EVT103,EV_IND_001,C-IND-003,2025-06-01 06:40:00,Maintenance,Low,Routine firmware update applied,true
+EVT104,EV_IND_001,C-IND-004,2025-06-01 09:30:00,Alert,Low,Charging efficiency drop detected,false
+EVT105,EV_IND_001,C-IND-005,2025-06-01 11:00:00,Inspection,Low,Daily safety inspection completed,true
+EVT106,EV_UK_001,C-UK-001,2025-06-01 05:10:00,Alert,High,Grid instability affecting charging rate,false
+EVT107,EV_UK_001,C-UK-002,2025-06-01 06:45:00,Fault,Medium,Power module fault - output limited,true
+EVT108,EV_UK_001,C-UK-003,2025-06-01 07:30:00,Maintenance,Low,Cooling fan cleaned and reset,true
+EVT109,EV_UK_001,C-UK-004,2025-06-01 10:15:00,Alert,Medium,Temperature spike during peak load,false
+EVT110,EV_UK_001,C-UK-005,2025-06-01 12:50:00,Inspection,Low,Connector integrity check completed,true
+EVT111,EV_IND_001,C-IND-001,2025-06-02 06:00:00,Maintenance,Low,Cable wear inspection completed,true
+EVT112,EV_IND_001,C-IND-002,2025-06-02 08:10:00,Alert,High,Charging current exceeded threshold,false
+EVT113,EV_IND_001,C-IND-003,2025-06-02 09:30:00,Fault,Critical,Controller failure - charger offline,true
+EVT114,EV_IND_001,C-IND-004,2025-06-02 12:00:00,Inspection,Low,Sensor calibration completed,true
+EVT115,EV_IND_001,C-IND-005,2025-06-02 14:20:00,Alert,Low,Minor voltage deviation detected,false
+EVT116,EV_UK_001,C-UK-001,2025-06-02 05:40:00,Maintenance,Medium,Transformer inspection completed,true
+EVT117,EV_UK_001,C-UK-002,2025-06-02 07:20:00,Alert,High,Battery backup issue detected,false
+EVT118,EV_UK_001,C-UK-003,2025-06-02 10:10:00,Fault,Critical,Network communication lost,true
+EVT119,EV_UK_001,C-UK-004,2025-06-02 13:00:00,Inspection,Low,Grounding system verified,true
+EVT120,EV_UK_001,C-UK-005,2025-06-02 15:30:00,Maintenance,Medium,Charging port replaced,true
