@@ -1,0 +1,16 @@
+restaurant_id,restaurant_name,city,state,cuisine,rating,avg_prep_time_min
+REST-US-001,Urban Grill,New York,NY,American,4.3,20
+REST-US-002,Taco Fiesta,Los Angeles,CA,Mexican,4.1,18
+REST-US-003,Pasta Corner,Chicago,IL,Italian,4.5,25
+REST-US-004,Smokehouse BBQ,Austin,TX,BBQ,4.4,30
+REST-US-005,Zen Bowl,Seattle,WA,Asian,4.2,22
+REST-US-006,Ocean Catch,Miami,FL,Seafood,4.3,28
+REST-US-007,Green Eats,Denver,CO,Healthy,4.0,15
+REST-US-008,Sweet Crumbs,Boston,MA,Bakery,4.6,12
+REST-US-009,Fusion Kitchen,San Francisco,CA,Asian Fusion,4.4,24
+REST-US-010,Prime Cuts,Dallas,TX,Steakhouse,4.5,35
+REST-US-011,Southern Spice,Atlanta,GA,Southern,4.3,20
+REST-US-012,Quick Bites,Phoenix,AZ,Fast Food,3.9,10
+REST-US-013,Fit Kitchen,San Diego,CA,Healthy,4.1,18
+REST-US-014,Little Italy,Orlando,FL,Italian,4.2,22
+REST-US-015,Neon Wok,Las Vegas,NV,Asian Fusion,4.3,23

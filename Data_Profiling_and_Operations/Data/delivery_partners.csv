@@ -1,0 +1,17 @@
+driver_id,driver_name,city,state,vehicle_type,rating
+DRV-901,Michael Carter,New York,NY,Car,4.7
+DRV-902,Jessica Lopez,Los Angeles,CA,Scooter,4.5
+DRV-903,David Kim,Chicago,IL,Car,4.6
+DRV-904,Anthony Russo,New York,NY,Bike,4.2
+DRV-905,Chris Walker,Austin,TX,Car,4.4
+DRV-906,Ethan Nguyen,Seattle,WA,Scooter,4.3
+DRV-907,Carlos Rivera,Miami,FL,Car,4.5
+DRV-908,Liam Brooks,Denver,CO,Bike,4.2
+DRV-909,Olivia Reed,Boston,MA,Scooter,4.6
+DRV-910,Kevin Zhang,San Francisco,CA,Car,4.5
+DRV-911,Brandon Scott,Dallas,TX,Car,4.4
+DRV-912,Marcus Hill,Atlanta,GA,Bike,4.3
+DRV-913,Nathan Price,Phoenix,AZ,Scooter,4.1
+DRV-914,Daniel Cruz,San Diego,CA,Car,4.4
+DRV-915,Jason Bell,Orlando,FL,Car,4.3
+DRV-916,Ryan Cooper,Las Vegas,NV,Scooter,4.2
