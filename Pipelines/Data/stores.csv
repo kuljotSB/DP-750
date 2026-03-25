@@ -1,0 +1,6 @@
+store_id,store_name,city,state,store_type
+STORE-001,Urban Retail NY,New York,NY,Flagship
+STORE-002,Chicago Central,Chicago,IL,Standard
+STORE-003,Austin Hub,Austin,TX,Standard
+STORE-004,Seattle Prime,Seattle,WA,Premium
+STORE-005,Miami Outlet,Miami,FL,Outlet

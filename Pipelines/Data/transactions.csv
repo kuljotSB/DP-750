@@ -1,0 +1,8 @@
+transaction_id,store_id,product_id,customer_id,city,state,quantity,price_usd,transaction_time,status
+TXN-1001,STORE-001,PROD-01,CUST-01,New York,NY,2,19.99,2026-06-01 10:05:00,Completed
+TXN-1002,STORE-002,PROD-02,CUST-02,Chicago,IL,1,49.99,2026-06-01 10:15:00,Completed
+TXN-1003,STORE-003,PROD-03,CUST-03,Austin,TX,3,9.99,2026-06-01 10:30:00,Completed
+TXN-1004,STORE-001,PROD-01,CUST-04,New York,NY,0,0,2026-06-01 10:45:00,Cancelled
+TXN-1005,STORE-004,PROD-04,CUST-05,Seattle,WA,2,25.00,2026-06-01 11:00:00,Completed
+TXN-1006,STORE-002,PROD-02,CUST-06,Chicago,IL,1,,2026-06-01 11:15:00,Completed
+TXN-1007,STORE-005,PROD-05,CUST-07,Miami,FL,4,5.99,2026-06-01 11:30:00,Completed
