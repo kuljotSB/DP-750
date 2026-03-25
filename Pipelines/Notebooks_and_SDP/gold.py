@@ -2,14 +2,10 @@ from pyspark import pipelines as dp
 from pyspark.sql.functions import sum, avg, count
 
 # creating the "city by category revenue" table in the Gold schema
-@dp.table(
-    name="city_category_revenue",
-    catalog="retail_job_lab",
-    schema="gold"
-)
+@dp.table(name="retail_job_lab.gold.city_category_revenue")
 def city_category_revenue():
 
-    df = dp.read("transactions_enriched")
+    df = dp.read("retail_job_lab.silver.transactions_enriched")
 
     return (
         df.groupBy("city", "category")
@@ -18,14 +14,10 @@ def city_category_revenue():
 
 
 # creating the "store performance" table in the Gold Schema
-@dp.table(
-    name="store_performance",
-    catalog="retail_job_lab",
-    schema="gold"
-)
+@dp.table(name="retail_job_lab.gold.store_performance")
 def store_performance():
 
-    df = dp.read("transactions_enriched")
+    df = dp.read("retail_job_lab.silver.transactions_enriched")
 
     return (
         df.groupBy("store_name")
@@ -38,14 +30,10 @@ def store_performance():
 
 
 # creating the "revenue by state" table in the Gold Schema
-@dp.table(
-    name="state_revenue",
-    catalog="retail_job_lab",
-    schema="gold"
-)
+@dp.table(name="retail_job_lab.gold.state_revenue")
 def state_revenue():
 
-    df = dp.read("transactions_enriched")
+    df = dp.read("retail_job_lab.silver.transactions_enriched")
 
     return (
         df.groupBy("state")
